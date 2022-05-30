@@ -23,37 +23,6 @@
 3. get balance.
 
 
-# lottery_smart_contract
-
-
-# Things used in the project :-
-
-1. Solidity programming language.
-2. Ethereum.
-3. Remix IDE.
-
-
-
-
-# Architecture of the project :-
-
-Global Variables :- 
-1. Owner -> The real owner who deployed the contract ( type address ).
-2. Players -> All the players address will be stored in this dynamic array ( type address[] ).
-3. lotteryNo -> keep track of total lotteries done.
-4. winners -> key value pair to keep track of  lottery winners history.
-
-
-Functions  :- 
-1. Enter Lottery
-2. Pick winner
-3. Get random number.
-4. get balance.
-5. get players
-6. get winners by lottery id.
-
-
-
 
 # How It works :-
 

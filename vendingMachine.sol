@@ -41,9 +41,10 @@ contract VendingMaching {
 
     }
 
-
-
-
+    // getting costumer history of total cans purchased.
+    function cansPurchased() public view returns (uint){
+        return canBalances[msg.sender];
+    }
 
 
 
